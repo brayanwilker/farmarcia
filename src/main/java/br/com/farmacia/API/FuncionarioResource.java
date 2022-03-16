@@ -91,6 +91,7 @@ public class FuncionarioResource implements Serializable {
             return ResponseEntity.status(HttpStatus.OK).build();
     }
 
+    //Processo de venda.
     @PostMapping(path = "/sale")
     @ResponseBody
     @ResponseStatus
